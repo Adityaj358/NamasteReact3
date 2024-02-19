@@ -1,8 +1,11 @@
 {
+  "homepage": "https://Adityaj358.github.io/NamasteReact3",
   "name": "namastereact2",
   "version": "1.0.0",
   "description": "This is namaste react practice",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "parcel index.html",
     "build": "parcel build index.html",
     "test": "jest",
@@ -30,7 +33,8 @@
     "parcel": "^2.10.3",
     "postcss": "^8.4.34",
     "process": "^0.11.10",
-    "tailwindcss": "^3.4.1"
+    "tailwindcss": "^3.4.1",
+    "gh-pages": "^6.1.1"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.1.0",
