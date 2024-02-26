@@ -1,13 +1,18 @@
 const Shimmer = () => {
-  return (
-    <div className="restaurant-list">
-      {Array(10)
-        .fill("")
-        .map((e,index) => (
-          <div key={index} className="shimmer-card"></div>
-        ))}
-    </div>
-  );
-};
+  return (<div className="shimmer-container flex items-center flex-wrap bg-red-800"> 
+          <div className="shimmer-cards  w-[270px] h-[350px] bg-gray-100 rounded-xl m-4"></div>
+          <div className="shimmer-cards  w-[270px] h-[350px] bg-gray-100 rounded-xl m-4"></div>
+          <div className="shimmer-cards  w-[270px] h-[350px] bg-gray-100 rounded-xl m-4"></div>
+          <div className="shimmer-cards  w-[270px] h-[350px] bg-gray-100 rounded-xl m-4"></div>
+          <div className="shimmer-cards  w-[270px] h-[350px] bg-gray-100 rounded-xl m-4"></div>
+          <div className="shimmer-cards  w-[270px] h-[350px] bg-gray-100 rounded-xl m-4"></div>
+          <div className="shimmer-cards  w-[270px] h-[350px] bg-gray-100 rounded-xl m-4"></div>
+          <div className="shimmer-cards  w-[270px] h-[350px] bg-gray-100 rounded-xl m-4"></div>
+          <div className="shimmer-cards  w-[270px] h-[350px] bg-gray-100 rounded-xl m-4"></div>
+          <div className="shimmer-cards  w-[270px] h-[350px] bg-gray-100 rounded-xl m-4"></div>
+
+
+   </div>)
+}
 
 export default Shimmer;
