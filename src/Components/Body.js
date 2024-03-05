@@ -1,7 +1,7 @@
 import { restaurantList } from "../../utils/Constants";
 import RestaurantCard from "./RestaurantCard";
 import { useState, useEffect } from "react";
-import Shimmer from "./Shimmer";
+import Shimmer from "./Shimmer"
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../../utils/useOnlineStatus";
 
@@ -176,9 +176,9 @@ const Body = () => {
   // }
 
   // You can use ternary operator to write the above code as below line
-  return listOfRes.length === 0 ? (
+  return listOfRes.length === 0 ? 
     <Shimmer />
-  ) : (
+   : (
     <div className="body bg-red-800">
       <div className="filter flex">
         <div className="search m-4 p-4">
