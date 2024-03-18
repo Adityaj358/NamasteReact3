@@ -1,12 +1,12 @@
 {
   "homepage": "https://Adityaj358.github.io/NamasteReact3",
-  "name": "namastereact2",
+  "name": "namastereact3",
   "version": "1.0.0",
   "description": "This is namaste react practice",
   "scripts": {
+    "start": "parcel index.html",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "parcel index.html",
     "build": "parcel build index.html",
     "test": "jest",
     "watch-test": "jest --watch"
