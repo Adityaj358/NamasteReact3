@@ -206,9 +206,9 @@ const Body = () => {
             Search
           </button>
         </div>
-        <div className="search m-4 p-4 flex items-center">
+        <div className="search m-4 p-4 flex items-center ">
           <button
-            className="px-4 py-2 bg-gray-100 rounded-lg"
+            className="px-4 py-2 bg-gray-100 rounded-lg hover:bg-blue-800 mr-[450px] "
             onClick={() => {
               // (console.log("clicked"))
 
